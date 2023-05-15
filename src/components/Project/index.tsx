@@ -74,7 +74,7 @@ export const Project = (): JSX.Element => {
             </ProjectStack>
 
             <Text type="body1" color="grey2">
-              {repository.description?.substring(0, 129)}
+              {repository.description?.substring(0, 168)}
             </Text>
             <ProjectLinks>
               <ProjectLink target="_blank" href={repository.html_url}>
@@ -83,7 +83,7 @@ export const Project = (): JSX.Element => {
               {repository.homepage && (
                 <ProjectLink
                   target="_blank"
-                  href={`https://${repository.homepage}`}
+                  href={`${repository.homepage}`}
                 >
                   <FaShare /> See demo
                 </ProjectLink>
