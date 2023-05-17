@@ -29,7 +29,7 @@ import {
 
 export const Home = (): JSX.Element => {
   const gihubUrl = `https://github.com/${userData.githubUser}`;
-  const portfolioUrl = `https://github.com/${userData.githubUser}/my-portfolio`;
+  const portfolioUrl = `https://github.com/${userData.githubUser}/portfolio`;
 
   return (
     <main id="home">
@@ -67,7 +67,7 @@ export const Home = (): JSX.Element => {
               dedicado e comprometido em me aperfeiçoar cada vez mais nessa
               área, para assim poder contribuir com projetos desafiadores e
               criativos. Estou sempre em busca de novos conhecimentos e desafios
-              para me desenvolver ainda mais como programador e profissional
+              para me desenvolver ainda mais como programador e profissional.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
